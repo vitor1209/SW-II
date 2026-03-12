@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <form action="processa.php" method="post">
+
+        <p>
+            <label>Nome:</label>
+            <input type="text" name="nome" id="nome " required maxlength="255">
+        </p>
+
+        <p>
+            <label>Idade:</label>
+            <input type="number" name="idade" id="idade" required>
+        </p>
+
+        <p>
+            <label>Mes nascimento:</label>
+            <input type="number" name="mes" id="mes" required>
+        </p>
+
+        <p>
+            <label>Email:</label>
+            <input type="email" name="email" id="email" required maxlength="255">
+        </p>
+
+        <input type="submit" value="Enviar">
+
+    </form>
+
+</body>
+
+</html>
